@@ -20,7 +20,7 @@ const RouteList = () => {
 
   // Redirect to the Map component with the selected route ID
   const handleRedirect = (routeId) => {
-    navigate(`/map/${routeId}`); // Pass the route ID as a URL parameter
+    navigate(`/map/${routeId}/`); // Pass the route ID as a URL parameter
   };
 
   return (
